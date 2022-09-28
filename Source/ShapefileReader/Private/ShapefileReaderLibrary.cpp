@@ -11,7 +11,6 @@ void UShapefileReaderRecord::SetDataset(GDALDataset* Dataset) noexcept
 {
 	Dataset_.Reset(Dataset);
 	Layer_ = Dataset_->GetLayer(0);
-	// TODO: 先当做Point处理
 	OGRFeatureDefn* LayerDef = Layer_->GetLayerDefn();
 	FieldCount = LayerDef->GetFieldCount();
 }
