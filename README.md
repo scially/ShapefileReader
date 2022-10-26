@@ -1,4 +1,4 @@
-#开始
+# 开始
 对于GIS开发者来说，GDAL是一个非常重要的库，可是GDAL编译非常麻烦，再加上UE又有自己的一套编译脚本，想要集成还是很困难的。
 ## C++包管理
 在正式开始之前，先讲讲现在`C++`包管理。不像`Python`的`pip`、`Java`的`Maven`，C++标准是没有提供包管理的，于是就有了一些第三方的包管理软件，目前来说比较常用的就是微软提供的[vcpkg](https://github.com/microsoft/vcpkg)了，他是基于`CMake`进行包查找、编译，我用vcpkg这几年，没有发现哪些包是vcpkg没有包含的，而且vcpkg也提供了Visual Studio Nuget的整合，或者用`vcpkg+CMake`搞`C++`开发是完全没问题的。
