@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "ShapefileReader",
-	"Description": "基于GDAL实现的Shapfile读取功能",
+	"Description": "基于GDAL实现的Shapfile,GDB,GeoJson,GeoTiff读取功能",
 	"Category": "GIS",
 	"CreatedBy": "hwang(imhwang@126.com)",
 	"CreatedByURL": "https://github.com/scially/ShapefileReader",

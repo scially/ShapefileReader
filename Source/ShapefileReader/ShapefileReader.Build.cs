@@ -36,7 +36,6 @@ public class ShapefileReader : ModuleRules
 				RuntimeDependencies.Add(Path.Combine("$(TargetOutputDir)/", LibraryName), LibraryPath);
 				RuntimeDependencies.Add(Path.Combine("$(BinaryOutputDir)/", LibraryName), LibraryPath);
 			}
-				
 			PublicDependencyModuleNames.AddRange(new string[]
 			{
 				"Core",
